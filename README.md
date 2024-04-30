@@ -25,7 +25,7 @@ run tests: npm run test
 
 Endpoints
 
-Get All Tasks
+# Get All Tasks
 URL: /tasks
 Method: GET
 Description: Get a list of all tasks.
@@ -33,7 +33,7 @@ Query Parameters:
 completed: Filter tasks by completion status (true or false).
 sort: Sort tasks by creation date (createdAt).
 
-Create a Task
+# Create a Task
 
 URL: /tasks
 Method: POST
@@ -44,7 +44,7 @@ description: Description of the task (required).
 completed: Completion status of the task (true or false, required).
 priority: Priority of the task (low, medium, or high, required).
 
-Update a Task
+# Update a Task
 
 URL: /tasks/:id
 Method: PUT
@@ -53,11 +53,11 @@ Request Body: JSON object with the fields to be updated.
 Delete a Task
 URL: /tasks/:id
 
-Method: DELETE
+# Method: DELETE
 
 Description: Delete a task by ID.
 
-Get Tasks by Priority
+# Get Tasks by Priority
 
 URL: /tasks/priority/:level
 Method: GET
