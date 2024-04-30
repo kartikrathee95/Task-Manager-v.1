@@ -12,12 +12,19 @@ git clone https://github.com/kartikrathee95/Task-Manager-v.1.git
 Install dependencies:
 
 cd Task-Manager-v.1/task-manager
+
 npm install
+
 Start the server:
+
 npm start
+
 The server will start running on http://localhost:3000.
+
 run tests: npm run test
+
 Endpoints
+
 Get All Tasks
 URL: /tasks
 Method: GET
@@ -27,6 +34,7 @@ completed: Filter tasks by completion status (true or false).
 sort: Sort tasks by creation date (createdAt).
 
 Create a Task
+
 URL: /tasks
 Method: POST
 Description: Create a new task.
@@ -37,6 +45,7 @@ completed: Completion status of the task (true or false, required).
 priority: Priority of the task (low, medium, or high, required).
 
 Update a Task
+
 URL: /tasks/:id
 Method: PUT
 Description: Update an existing task by ID.
@@ -45,9 +54,11 @@ Delete a Task
 URL: /tasks/:id
 
 Method: DELETE
+
 Description: Delete a task by ID.
 
 Get Tasks by Priority
+
 URL: /tasks/priority/:level
 Method: GET
 Description: Get tasks by priority level (low, medium, or high).
