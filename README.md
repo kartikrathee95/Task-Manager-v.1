@@ -1,5 +1,5 @@
 # Task-Manager-v.1
-# Express Task Manager API
+Express Task Manager API
 This is a simple Express.js API for managing tasks. It allows you to perform CRUD operations (Create, Read, Update, Delete) on tasks with different priorities.
 
 Getting Started
@@ -8,15 +8,15 @@ To get started with the API, follow these steps:
 Clone the repository:
 bash
 Copy code
-# git clone https://github.com/kartikrathee95/Task-Manager-v.1.git
+git clone https://github.com/kartikrathee95/Task-Manager-v.1.git
 Install dependencies:
 
-# cd Task-Manager-v.1/task-manager
+cd Task-Manager-v.1/task-manager
 npm install
 Start the server:
-# npm start
+npm start
 The server will start running on http://localhost:3000.
-# run tests: npm run test
+run tests: npm run test
 Endpoints
 Get All Tasks
 URL: /tasks
