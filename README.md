@@ -50,12 +50,12 @@ URL: /tasks/:id
 Method: PUT
 Description: Update an existing task by ID.
 Request Body: JSON object with the fields to be updated.
-Delete a Task
-URL: /tasks/:id
 
 # Method: DELETE
-
+Delete a Task
+URL: /tasks/:id
 Description: Delete a task by ID.
+
 
 # Get Tasks by Priority
 
@@ -69,5 +69,5 @@ To add headers in your requests, use the following format:
 curl -X METHOD http://localhost:3000/endpoint -H "Content-Type: application/json"
 Replace METHOD with the request method (e.g., POST, PUT, GET, DELETE), endpoint with the API endpoint you want to access, Content-Type with the type of data you are sending in the request body (e.g., application/json)
 
-# is testing using postman, make sure to include header: Content_Type: application/json, while running POST and PUT requests
+# while testing using postman, make sure to include header: Content_Type: application/json, while running POST and PUT requests
 
